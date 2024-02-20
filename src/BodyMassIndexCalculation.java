@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class BodyMassIndexCalculation {
     public static void main(String[] args) {
-        //define height (h) ,  weight (w)
+        //define height (h) ,  weight (w), body mass index (bmi)
         double h, w, bmi;
 
         // Define Scanner
