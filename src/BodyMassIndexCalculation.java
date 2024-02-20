@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class BodyMassIndexCalculation {
     public static void main(String[] args) {
         //define height (h) ,  weight (w)
-        double h, w;
+        double h, w, bmi;
 
         // Define Scanner
         Scanner doa=new Scanner(System.in);
@@ -15,7 +15,7 @@ public class BodyMassIndexCalculation {
         w=doa.nextDouble();
 
         // Calculating Body Mass Index
-        double bmi=w/(h*h);
+        bmi = w / ( h * h );
 
         System.out.println("Body Mass Index : "  + bmi);
     }
